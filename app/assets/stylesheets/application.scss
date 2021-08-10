@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+   margin: 0;
+ }
+
+ .header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(240, 240, 240);
+  padding: 12px;
+  margin-bottom: 24px;
+    a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+      &:hover {
+        color: rgb(30, 30, 30);
+      }
+      &:first-child {
+        font-size: 20px;
+        font-family: helvetica;
+      }
+    }
+ }
+
+ .container {
+   margin: 0 auto;
+   width: 600px;
+ }
+
+ .article-card {
+   margin-bottom: 16px;
+   a {
+     text-decoration: none;
+     color: #22527C;
+     font-size: 22px;
+   }
+ }

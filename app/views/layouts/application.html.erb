@@ -10,6 +10,10 @@
   </head>
 
   <body>
+  <div class="header">
+    <%= link_to 'Wikinimous', articles_path %>
+    <%= link_to 'Add an article',  new_article_path %>
+  </div>
     <%= yield %>
   </body>
 </html>
